@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+	<title>Para Çeviri</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="assets/images/fav.png" type="image/gif" sizes="64x64">
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&amp;display=swap&amp;subset=latin-ext"
+		rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/color-2.css">
+</head>
+
+<body>
+	<header class="header_02">
+		<div class="header_main">
+			<div class="header_menu fixed-top">
+				<div class="container">
+					<div class="header_top">
+						<div class="logo">
+							<a href="index.html">
+								<img alt="Logo" class="img-fluid" src="assets/images/logo-2.png">
+							</a>
+						</div>
+						<div class="navigation">
+
+							<div class="ac_nav">
+								<!--Github-->
+								<div>
+									<a class="btn btn-primary" href="#">GitHub</a>
+								</div>
+								<!--Github-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_btm ">
+				<div class="container">
+					<h2>Para Çeviri Exchange Rates API</h2>
+					<p>Ücretsiz <a style="color:rebeccapurple;" href="https://exchangeratesapi.io/">Exchange Rates
+							API</a> Kullanılmıştır. Deneme Amaçlıdır.</p><br />
+					<form id="currency-form">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/turkey.png" alt="Türkiye">
+									<input id="TRY" class="form-control" type="number" name="TRY" size="40"
+										placeholder="TRY">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/united-states-of-america.png"
+										alt="Dolar">
+									<input id="USD" class="form-control" type="number" name="USD" size="40"
+										placeholder="USD">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/eu.png" alt="Euro">
+									<input id="EUR" class="form-control" type="number" name="EUR" size="40"
+										placeholder="EUR">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/united-kingdom.png" alt="Sterlin">
+									<input id="GBP" class="form-control" type="number" name="GBP" size="40"
+										placeholder="GBP">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/switzerland.png" alt="İsviçre Frangı">
+									<input id="CHF" class="form-control" type="number" name="CHF" size="40"
+										placeholder="CHF">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/china.png" alt="Çin Yuanı">
+									<input id="CNY" class="form-control" type="number" name="CNY" size="40"
+										placeholder="CNY">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/japan.png" alt="Japon Yeni">
+									<input id="JPY" class="form-control" type="number" name="JPY" size="40"
+										placeholder="JPY">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/brazil.png" alt="Brezilya Reali">
+									<input id="BRL" class="form-control" type="number" name="BRL" size="40"
+										placeholder="BRL">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/russia.png" alt="Rus Rublesi">
+									<input id="RUB" class="form-control" type="number" name="RUB" size="40"
+										placeholder="RUB">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/sweden.png" alt="İsveç Kronu">
+									<input id="SEK" class="form-control" type="number" name="SEK" size="40"
+										placeholder="SEK">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/canada.png" alt="Kanada Doları">
+									<input id="CAD" class="form-control" type="number" name="CAD" size="40"
+										placeholder="CAD">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/iceland.png" alt="İzlanda Kronu">
+									<input id="ISK" class="form-control" type="number" name="ISK" size="40"
+										placeholder="ISK">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/croatia.png" alt="Hırvat Kunası">
+									<input id="HRK" class="form-control" type="number" name="HRK" size="40"
+										placeholder="HRK">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/new-zealand.png"
+										alt="Yeni Zelanda Doları">
+									<input id="NZD" class="form-control" type="number" name="NZD" size="40"
+										placeholder="NZD">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/india.png" alt="Hindistan Rupisi">
+									<input id="INR" class="form-control" type="number" name="INR" size="40"
+										placeholder="INR">
+								</div>
+								<div class="form-current">
+									<img class="img-flag" src="assets/images/flag/poland.png" alt="Polonya Zlotisi">
+									<input id="PLN" class="form-control" type="number" name="PLN" size="40"
+										placeholder="PLN">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<footer id="colophon" class="site-footer custom_footer">
+		<div class="container">
+			<div class="row footer_widget">
+				<div class="col-md-12">
+					<div class="footer_widget_box">
+						<p class="copyright-text">© Copyright 2020 by <a href="https://bugrakara.com.tr">Buğra Kara</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="ui.js"></script>
+	<script src="currency.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
